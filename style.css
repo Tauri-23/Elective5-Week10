@@ -1,0 +1,19 @@
+body {
+    position: relative;
+    height: 100%;
+}
+
+.outer-cont {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    background: white;
+    filter: drop-shadow(0 0 3px #383838);
+    padding: 30px;
+}

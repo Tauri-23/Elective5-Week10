@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Week 11</title>
+</head>
+<body>
+    <div class="outer-cont">
+        <div class="form">
+            <label for="vehicleType">Vehicle Type</label><br/>
+            <input type="text" id="vehicleType" /><br/><br/>
+    
+            <label for="plateNum">Plate Number</label><br/>
+            <input type="text" id="plateNum" /><br/><br/>
+    
+            <label for="day">Day</label><br/>
+            <select id="day">
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+                <option value="Friday">Friday</option>
+                <option value="Saturday">Saturday</option>
+                <option value="Sunday">Sunday</option>
+            </select>
+    
+            <label for="time">Time</label><br/>
+            <input type="time" id="time" /><br/><br/>
+    
+            <button id="submit-btn">Submit</button>
+        </div>
+    
+        <h3 class="result" id="output"></h3>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
